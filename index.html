@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Food Delivery Restaurant</title>
+        </head>
+        <style>
+            body{
+                background-color:greenyellow;
+            }
+            h1{
+                color:red ;
+            }
+            h2{
+                color:blue;
+            }
+            t input{
+               background-color:gray;
+            }
+        </style>
+        <h1>Online Restaurant Form</h1>
+        <form>
+            <h2>Online Food Delivery</h2>
+            <div class="types of Biriyani">
+                    <span>Choose your Order</span><br>
+                    <input type="radio" name="type" id="type" value="Checken Biriyani">
+                    <label for="type"> Checken Biriyani</label><br>
+        
+                        <input type="radio" name="type" id="type" value="Mutton Biriyani">
+                        <label for="type">Mutton Biriyani</label>
+            </div>
+            <hr>
+
+            <!--here"hr" tag create a under the content thick border line generated-->
+
+            <section for="ingredients">
+                <label>How many number of Biriyanis do you need</label>
+                <input type="number" name="count" id="count" min="1" max="620" required>
+            </section>
+            <hr>
+
+            <!-- Here we can use both "section" tag or "div" tag no problem-->
+
+
+            <section class="texture">
+                <label for="texture">Which type of spice do u need</label>
+                <span>Medium</span>
+                <input type="range" name="texture" id="texture" value="5" min="1" max="10">
+                <span>Heigh</span>
+            </section>
+            <hr>
+
+
+
+            <section class="toppings for dosa">
+                <span>Choose your toppings</span><br>
+                <input type="checkbox" name="toppings" id="toppings" value="Checken mini">
+                <label for="toppings">Checken mini</label>
+    
+                <input type="checkbox" name="toppings" id="toppings" value="Mutton mini">
+                <label for="toppings">Mutton mini</label>
+    
+                <input type="checkbox" name="toppings" id="toppings" value="fish fry">
+                <label for="toppings">fish fry</label>
+    
+                <input type="checkbox" name="toppings" id="toppings" value="masala fry">
+                <label for="toppings">masala fry</label>
+
+                <input type="checkbox" name="toppings" id="toppings" value="France fry">
+                <label for="toppings">France fry</label><br>
+
+            </section>
+            <hr>
+
+
+
+
+            <section class="toppings for non-veg ">
+                <span>toppins for non-veg items</span><br>
+
+                <input type="checkbox" name="toppings" id="toppings" value="Checken">
+                <label for="mutton">Checken</label>
+
+                <input type="checkbox" name="toppings" id="toppings" value="Mutton">
+                <label for="chicken">Mutton</label>
+
+                <input type="checkbox" name="toppings" id="toppings" value="Fish">
+                <label for="chicken">Fish</label>
+
+            </section>
+
+    
+            <hr>
+
+    
+            <section class="rice">
+                <span>What type of rice do you need for Biriyani</span><br>
+                <input type="radio" id="rice" name="rice" value="Basmathi rice">
+                <label for="rice">Basmathi rice</label>
+                <input type="radio" id="rice" name="rice" value="Normal rice">
+                <label for="package">Normal rice</label>
+    
+            </section>
+            <hr>
+
+    
+    
+            <div class="payment">
+                <span>payment mode</span><br>
+
+                <input type="radio" id="payment" name="payment" value="cash on delivery">
+                <label for="payment">cash on delivery</label>
+
+                <input type="radio" id="payment" name="payment" value="online transaction">
+                <label for="payment">online transactions</label><br><br>
+
+            </div>
+            
+
+            <section class="descriptions">
+                <label for="descriptions">Add some extra suggestions!</label><br>
+                
+                <textarea id="suggestions"></textarea><br><br>
+            </section>
+            <t input>
+            <input type="submit" value="submit">
+            
+        </t input>
+        </form>
+    
+</html>
